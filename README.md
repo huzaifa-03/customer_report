@@ -49,23 +49,23 @@ Average Order Value (AOV)
 Average Monthly Spend
 
 📊 Output Columns
-Column Name	      Description,
-customer_key	     Unique customer identifier,
-customer_number	  Customer reference number,
-customer_name	    Full name of customer,
-age	              Customer age (in years),
-age_group	        Categorized age range,
-customer_segment	 Customer type (VIP, Regular, New),
-last_order_date	  Most recent purchase date,
-recency	          Months since last purchase,
-total_orders	     Total distinct orders,
-total_sales	      Total sales value,
-total_quantity	   Total items purchased,
-total_products	   Distinct products purchased,
-lifespan	         Customer active months,
-avg_order_value	  Sales ÷ Orders,
-avg_monthly_spend	Sales ÷ Lifespan
-
+| Column Name         | Description                       |
+| ------------------- | --------------------------------- |
+| `customer_key`      | Unique customer identifier        |
+| `customer_number`   | Customer reference number         |
+| `customer_name`     | Full name of customer             |
+| `age`               | Customer age (in years)           |
+| `age_group`         | Categorized age range             |
+| `customer_segment`  | Customer type (VIP, Regular, New) |
+| `last_order_date`   | Most recent purchase date         |
+| `recency`           | Months since last purchase        |
+| `total_orders`      | Total distinct orders             |
+| `total_sales`       | Total sales value                 |
+| `total_quantity`    | Total items purchased             |
+| `total_products`    | Distinct products purchased       |
+| `lifespan`          | Customer active months            |
+| `avg_order_value`   | Sales ÷ Orders                    |
+| `avg_monthly_spend` | Sales ÷ Lifespan                  |
 
 🛠️ SQL Script
 
